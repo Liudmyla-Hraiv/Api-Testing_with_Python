@@ -2,6 +2,7 @@ import pytest
 import requests
 
 base_url = "https://fakestoreapi.com"
+
 def test_getAllCategory():
     headers = {
         'Content-Type' : 'application/json'

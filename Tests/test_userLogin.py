@@ -3,6 +3,7 @@ import requests
 import json
 
 base_url = "https://fakestoreapi.com"
+
 def test_getToken():
     payload = json.dumps({
     "username": "mor_2314",

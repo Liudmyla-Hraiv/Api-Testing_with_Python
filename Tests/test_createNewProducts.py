@@ -3,6 +3,7 @@ import requests
 import json
 
 base_url = "https://fakestoreapi.com"
+
 def test_createProduct() :
     payload = json.dumps({
     "title": "Tasty Cotton Table",

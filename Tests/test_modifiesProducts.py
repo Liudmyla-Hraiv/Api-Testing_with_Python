@@ -15,6 +15,7 @@ def test_modify():
     headers = {
         'Content-Type' : 'application/json'
     }
+    
     response = requests.put(url= base_url + '/products/7', headers=headers, data=payload)
  
     assert 200 == response.status_code

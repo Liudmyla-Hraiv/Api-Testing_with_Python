@@ -3,6 +3,7 @@ import requests
 import json
 
 base_url = "https://fakestoreapi.com"
+
 def test_update():
     payload = json.dumps({
     "title": "Handmade Concrete Bike",
